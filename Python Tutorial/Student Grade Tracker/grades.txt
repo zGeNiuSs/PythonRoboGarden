@@ -1,0 +1,2 @@
+english,60.0
+math,80.0

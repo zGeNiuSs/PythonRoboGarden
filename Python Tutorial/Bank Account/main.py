@@ -10,7 +10,7 @@ class BankAccount:
         self.account_id = BankAccount.account_counter
         BankAccount.account_counter += 1
 
-        self.filename = f"{self.account_id}_{self.account_type}_{self.name}.txt"
+        self.filename = "Python Tutorial\Bank Account\\"+str(self.account_id)+"_"+self.account_type+"_"+self.name+".txt"
 
         with open(self.filename, "w") as file:
             file.write(f"Account Created: {self.name}, Type: {self.account_type}, ID: {self.account_id}\n")

@@ -1,0 +1,4 @@
+Account Created: Alice, Type: Savings, ID: 1
+Initial Balance: $100.00
+Deposited: $200.00, New Balance: $300.00
+Withdrew: $50.00, New Balance: $250.00

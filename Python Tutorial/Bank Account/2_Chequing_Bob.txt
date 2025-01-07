@@ -1,0 +1,4 @@
+Account Created: Bob, Type: Chequing, ID: 2
+Initial Balance: $50.00
+Deposited: $100.00, New Balance: $150.00
+Withdrew: $20.00, New Balance: $130.00

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Online Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+    }
+    header {
+      text-align: center;
+      background-color: lightblue;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    section {
+      margin: 20px 0;
+    }
+    h2 {
+      color: darkblue;
+    }
+    ul, ol {
+      margin-left: 20px;
+    }
+    form {
+      margin-top: 20px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Online Portfolio</h1>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      <b>Date of Birth:</b> January 1, 1997 <br>
+      <b>Education:</b> Bachelor’s in Computer Science <br>
+      <b>Projects:</b>
+      <ul>
+        <li>Smart Glasses for Blind People</li>
+        <li>SWAG Labs Automation Testing</li>
+      </ul>
+      <b>Current Job:</b> Software Testing Engineer <br>
+      <b>Languages:</b> English, Arabic <br>
+      <b>Activities:</b> Reading, Traveling, Programming
+    </p>
+  </section>
+
+  <section>
+    <h2>Languages</h2>
+    <ul>
+      <li>English</li>
+      <li>Arabic</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Courses</h2>
+    <ol>
+      <li>Advanced Software Testing (2024)</li>
+      <li>Automation Testing Basics (2023)</li>
+      <li>Introduction to Programming (2022)</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Contact Me</h2>
+    <form action="#">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" placeholder="Your Age" required>
+
+      <label for="request">Request:</label>
+      <textarea id="request" name="request" placeholder="How can I help you?" rows="5" required></textarea>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</body>
+</html>
